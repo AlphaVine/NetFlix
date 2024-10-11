@@ -1,0 +1,731 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', san-serif;
+    box-sizing: border-box;
+}
+
+
+body{
+    background: #000;
+    color: #fff;
+}
+
+.header{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0,7),rgba(0,0,0,0,7)), url(images/bckgrnd\ img.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding: 10px 8%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px, 0;
+
+}
+.logo{
+    width: 160px;
+    cursor: pointer;
+}
+
+nav button{
+    border: 0;
+    outline: 0;
+    background: #db0001;
+    color: #fff;
+    padding: 7px 20px;
+    border-radius: 4px;
+    font-size: 12px;
+    cursor: pointer;
+    margin-left: 10px;
+
+}
+.header-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: 100px;
+
+}
+.header-content h1{
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 600;
+    max-width: 650px;
+
+}
+
+.header-content h3{
+    font-weight: 400;
+    margin-bottom: 20px;
+
+}
+.email-signup{
+    background: #fff;
+    border-radius: 4px;
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+.email-signup input{
+    flex: 1;
+    border: 0;
+    outline: 0;
+    margin-left: 20px;
+
+}
+
+.email-signup button{
+    background: #db0001;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 15px 30px;
+
+}
+
+
+.line-img{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+
+
+
+.trending{
+    
+}
+/* ------------------container------------- */
+
+.text-view{
+    margin-bottom: 20px;
+    width: 100%;
+    align-items: center;
+}
+
+.text-view h3{
+    margin-bottom: 40px;
+}
+.svg{
+    margin-top: 65px;
+    margin-left: 155px;
+}
+
+.svg2{
+    margin-top: 25px;
+    margin-left: 155px;
+}
+
+.svg3{
+    margin-top: 85px;
+    margin-left: 155px; 
+}
+
+.svg4{
+    margin-top: 34px;
+    margin-left: 155px;
+}
+
+@media(max-width: 1285px){
+    .containercard{
+        box-sizing: border-box;
+        /* flex-wrap: nowrap; */
+        /* padding: 0 9.25em; */
+        display: inline-flex;
+        flex-direction: row;
+
+        /* flex-wrap: wrap; */
+    }
+
+    .card1{
+        width: 49%;
+        height: 250px;
+    }
+
+    .card2{
+        width: 49%;
+        height: 250px;
+    }
+
+    .card3{
+        width: 49%;
+        height: 250px;
+    }
+
+    .card4{
+        width: 49%;
+        height: 250px;
+    }
+
+    .svg{
+        margin-left: 80%;  
+        margin-top: 3em;
+    }
+
+    .svg2{
+        margin-left: 80%; 
+        margin-top: 1%; 
+        /* margin-bottom: 2.5em; */
+    }
+
+    .svg3{
+        margin-left: 80%;  
+        margin-top: 3em;
+    }
+
+    .svg4{
+        margin-left: 80%;  
+        margin-top: 2em;
+    }
+}
+
+@media(max-width: 1074px){
+    .containercard{
+        /* flex-wrap: nowrap; */
+        /* padding: 0 9.25em; */
+        display: inline-flex;
+        flex-direction: row;
+        /* flex-wrap: wrap; */
+    }
+
+    .card1{
+        width: 47%;
+        height: 270px;
+    }
+
+    .card2{
+        width: 47%;
+        height: 270px;
+    }
+
+    .card3{
+        width: 47%;
+        height: 270px;
+    }
+
+    .card4{
+        width: 47%;
+        height: 270px;
+    }
+
+    .svg{
+        margin-left: 70%;  
+        margin-top: 3em;
+    }
+
+    .svg2{
+        margin-left: 70%; 
+        margin-top: 2em;
+        /* margin-bottom: 2.5em; */
+    }
+
+    .svg3{
+        margin-left: 70%;  
+        margin-top: 3em;
+    }
+
+    .svg4{
+        margin-left: 70%;  
+        margin-top: 3em;
+
+    }
+}
+
+
+/* @media(max-width: 1000px) */
+    .containercard{
+        /* flex-wrap: nowrap; */
+        /* padding: 0 9.25em; */
+        display: inline-flex;
+        flex-direction: row;
+        /* flex-wrap: wrap; */
+    }
+
+    .card1{
+        width: 48%;
+        height: 270px;
+    }
+
+    .card2{
+        width: 48%;
+        height: 270px;
+    }
+
+    .card3{
+        width: 48%;
+        height: 270px;
+    }
+
+    .card4{
+        width: 48%;
+        height: 270px;
+    }
+
+    .svg{
+        margin-left: 70%;  
+        margin-top: 3em;
+    }
+
+    .svg2{
+        margin-left: 70%; 
+        margin-top: 2em;
+        /* margin-bottom: 2.5em; */
+    }
+
+    .svg3{
+        margin-left: 70%;  
+        margin-top: 3em;
+    }
+
+    .svg4{
+        margin-left: 70%;  
+        margin-top: 3em;
+
+    }
+
+    @media(max-width: 960px){
+    .containercard{
+        /* flex-wrap: nowrap; */
+        /* padding: 0 9.25em; */
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .card1{
+        width: 100%;
+        height: 270px;
+    }
+
+    .card2{
+        width: 100%;
+        height: 270px;
+    }
+
+    .card3{
+        width: 100%;
+        height: 270px;
+    }
+
+    .card4{
+        width: 100%;
+        height: 270px;
+    }
+
+    .svg{
+        margin-left: 85%;
+            margin-top: 5em;
+    }
+
+    .svg2{
+        margin-left: 85%;
+        margin-top: 5em;
+        /* margin-bottom: 2.5em; */
+    }
+
+    .svg3{
+        margin-left: 85%;
+        margin-top: 5em;
+    }
+
+    .svg4{
+        margin-left: 85%;
+            margin-top: 5em;
+
+    }
+}
+@media(max-width: 700px){
+    .containercard{
+        /* flex-wrap: nowrap; */
+        /* padding: 0 9.25em; */
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .card1{
+        width: 100%;
+        height: 270px;
+    }
+
+    .card2{
+        width: 100%;
+        height: 270px;
+    }
+
+    .card3{
+        width: 100%;
+        height: 270px;
+    }
+
+    .card4{
+        width: 100%;
+        height: 270px;
+    }
+
+    .svg{
+        margin-left: 85%;
+            margin-top: 4em;
+    }
+
+    .svg2{
+        margin-left: 85%;
+        margin-top: 4em;
+        /* margin-bottom: 2.5em; */
+    }
+
+    .svg3{
+        margin-left: 85%;
+        margin-top: 4em;
+    }
+
+    .svg4{
+        margin-left: 85%;
+            margin-top: 4em;
+
+    }
+}
+
+@media(max-width: 510px){
+    .containercard{
+        /* flex-wrap: nowrap; */
+        /* padding: 0 9.25em; */
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .card1{
+        width: 100%;
+        height: 270px;
+    }
+
+    .card2{
+        width: 100%;
+        height: 270px;
+    }
+
+    .card3{
+        width: 100%;
+        height: 270px;
+    }
+
+    .card4{
+        width: 100%;
+        height: 270px;
+    }
+
+    .svg{
+        margin-left: 75%;
+            margin-top: 3em;
+    }
+
+    .svg2{
+        margin-left: 75%;
+        margin-top: 3em;
+        /* margin-bottom: 2.5em; */
+    }
+
+    .svg3{
+        margin-left: 75%;
+        margin-top: 3em;
+    }
+
+    .svg4{
+        margin-left: 75%;
+            margin-top: 3em;
+
+    }
+}
+
+@media(max-width: 488px){
+    .containercard{
+        /* flex-wrap: nowrap; */
+        /* padding: 0 9.25em; */
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .card1{
+        width: 100%;
+        height: 270px;
+    }
+
+    .card2{
+        width: 100%;
+        height: 270px;
+    }
+
+    .card3{
+        width: 100%;
+        height: 270px;
+    }
+
+    .card4{
+        width: 100%;
+        height: 270px;
+    }
+
+    .svg{
+        margin-left: 70%;
+            margin-top: 3em;
+    }
+
+    .svg2{
+        margin-left: 70%;
+        margin-top: 2em;
+        /* margin-bottom: 2.5em; */
+    }
+
+    .svg3{
+        margin-left: 70%;
+        margin-top: 3em;
+    }
+
+    .svg4{
+        margin-left: 70%;
+            margin-top: 3em;
+
+    }
+}
+
+@media(max-width: 312px){
+    .containercard{
+        /* flex-wrap: nowrap; */
+        /* padding: 0 9.25em; */
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .card1{
+        width: 100%;
+        height: 270px;
+    }
+
+    .card2{
+        width: 100%;
+        height: 270px;
+    }
+
+    .card3{
+        width: 100%;
+        height: 270px;
+    }
+
+    .card4{
+        width: 100%;
+        height: 270px;
+    }
+
+    .svg{
+        margin-left: 60%;
+            margin-top: 1em;
+    }
+
+    .svg2{
+        margin-left: 60%;
+        margin-top: -1em;
+        /* margin-bottom: 2.5em; */
+    }
+
+    .svg3{
+        margin-left: 60%;
+        margin-top: -1em;
+    }
+
+    .svg4{
+        margin-left: 60%;
+            margin-top: -1em;
+
+    }
+}
+
+
+
+
+
+
+
+/* ---------------faq------------ */
+
+.faq{
+    padding: 10px 12%;
+    text-align: center;
+    font-size: 18px;
+
+}
+
+.faq h2{
+    font-weight: 500;
+    font-size: 40px;
+
+
+}
+
+.accordion{
+    margin: 60px auto;
+    width: 100%;
+    max-width: 750px;
+
+}
+
+.accordion li{
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+}
+
+.accordion li label{
+    display: flex;
+    font-size: 18px;
+    font-weight: 500;
+    background: #303030;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+}
+
+label::after{
+    content: '+';
+    font-size: 34px;
+    position: absolute;
+    right: 20px;
+    transition: transform 0.5s;
+}
+
+input[type="radio"]{
+    display: none;
+}
+
+.accordion .content{
+    background: #303030;
+    text-align: left;
+    max-height: 0;
+    padding: 0 20px;
+    overflow: hidden;
+    transition: max-height 0.5s, padding 0.5s;;
+    
+
+}
+.accordion .first{
+    text-wrap: wrap;
+}
+
+.accordion input[type="radio"]:checked + label + .content{
+    max-height: 600px;
+    padding: 30px 20px;
+}
+
+.accordion input[type="radio"]:checked + label::after{
+    transition: rotate(135deg);
+}
+
+.faq .email-signup{
+    max-width: 600px;
+    margin: 20px auto 60px;
+    
+}
+
+.faq small{
+    font-size: 13px;
+}
+
+
+/* --------------------footer-------------- */
+
+.footer{
+    padding: 50px 15% 10px;
+   
+}
+
+
+.footer .row{
+    align-items: flex-start;
+    display: flex;
+    /* justify-content: center; */
+    padding: 10px 0;
+
+}
+
+.footer h1{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 50px;
+    
+}
+
+.footer h1 a{
+    color: #f7efef;
+}
+
+.footer .col{
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+    
+    
+   
+}
+.footer .col a{
+    display: block;
+    color: #f7efef;
+    font-size: 14px;
+     margin-bottom: 10px;
+
+}
+
+.footer .language-btn{
+    display: inline-flex;
+    align-items: center;
+    border: 1px solid #000;
+    color: #050505;
+    padding: 7px 10px;
+    /* padding: 10px 20px; */
+    border-radius: 3px;
+    /* width: 100px; */
+    /* height: 40px; */
+    text-decoration: solid;
+}
+
+.footer .language-btn img{
+    width: 30px;
+    height: 25px;
+}
+
+.lantype{
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+
+/* ---------------media------------- */
+
+
+@mediao only screen and (max-width: 600px){
+    .logo{
+        width: 100px;
+    }
+    nav button{
+        padding: 5px 10px
+    }
+    nav .language-btn{
+        padding: 4px 8px;    }
+}
